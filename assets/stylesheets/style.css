@@ -1,0 +1,123 @@
+.center {
+        text-align: center;
+        }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+body {
+  background-image: url('riddler-background_2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+#headers{
+  color: red;
+  width: 200px;
+  border-width: thick;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: #9400D3;
+  text-shadow: -1.25px 0 0.5px black, 0 1.25px 0.5px black, 1.25px 0 0.5px black, 0 -1.25px black;
+}
+
+html {
+  box-sizing: 'border-box'
+  height: 100%;
+}
+#input-parent {
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  display:inline;
+  position: relative;
+}
+#player-input {
+  font-size: 80px;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  background-color: black;
+  border-color: crimson;
+  border-width: thick; 
+  color: white;
+}
+
+::placeholder {
+  color:white;
+}
+
+
+#submit {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 100px;
+  top: 20px;
+}
+
+.guess {
+  display:inline;
+  border: 1px solid green;
+  border-radius: 10px;
+  border-width: medium;
+  font-size: 60px;
+  color: white;
+  background-color: black;
+  margin: 10px;
+  padding: 0 25px;
+  position: relative;
+  top: 50px;
+}
+
+#menu-btns {
+  position: relative;
+  top: 50px;
+}
+
+#footer {
+  background-color: white;
+}
+
+#headers {
+  width: 60%;
+  margin: 50px auto;
+
+}
+
+.purple {
+  background-color: #DC143C;
+}
+
+.white {
+  color: white;
+}
+
+.col-sm-4 {
+  width: 150%;
+}
+
+.green {
+  background-color: #008000;
+}
+
+
+
+
+
+
+
+
